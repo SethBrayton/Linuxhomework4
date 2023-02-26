@@ -1,0 +1,35 @@
+localhost:~# cd /
+localhost:/# touch /tmp/test.txt
+localhost:/# cp -v /etc/group /tmp/test.txt
+'/etc/group' -> '/tmp/test.txt'
+localhost:/# vi /tmp/test.txt
+at:x:25:at
+tape:x:26:root
+video:x:27:root
+netdev:x:28:
+readproc:x:30:
+squid:x:31:squid
+xfs:x:33:xfs
+kvm:x:34:kvm
+games:x:35:
+shadow:x:42:
+cdrw:x:80:
+usb:x:85:
+vpopmail:x:89:
+users:x:100:games
+ntp:x:123:
+nofiles:x:200:
+smmsp:x:209:smmsp
+locate:x:245:
+abuild:x:300:
+utmp:x:406:
+ping:x:999:
+nogroup:x:65533:
+nobody:x:65534:
+dhcp:x:101:dhcp
+svnusers:x:102:svn
+user2:*:1000:
+user2:*:1000:
+user2:*:1000:
+done
+localhost:/#
